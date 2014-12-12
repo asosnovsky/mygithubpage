@@ -1,1 +1,6 @@
-<div class="actuary-wrapper row wow bounceInRight" ng-controller="AboutCtrl"> <h1 id="actuary">Actuary</h1> <p class="container"> </p> </div>
+<!-- <div class="actuary-wrapper row wow bounceInRight" ng-controller="AboutCtrl">
+	<h1 id="actuary">Actuary</h1>
+	<p class="container">
+	</p>
+</div>
+ --> <div class="about"> <div class="modal-header"> <div style="text-align: right"> <i class="fa fa-times" ng-click="ok()"></i> </div> <h2 class="modal-title">Actuary</h2> </div> <div class="modal-body"> <p> ​<h3>Qualifications</h3> </p><p> ........ </p> <h3>Why I want to be an Actuary?</h3> <p> ........ </p> <h3>Course History</h3> Search: <input ng-model="search.$" tooltip="Search my Courses." tooltip-placement="right"> <ul> <li ng-repeat="course in courses | filter:search:strict"> <h4> |<span ng-bind-html="highlight(course.course_code, search.$)"></span>| <b ng-bind-html="highlight(course.title, search.$)"></b> <i ng-bind-html="highlight(course.note, search.$)"></i> </h4> <p ng-bind-html="highlight(course.description, search.$)"></p> </li> </ul>  </div> <div class="modal-footer"> <button class="btn btn-primary" ng-click="ok()">Back</button> </div> </div>

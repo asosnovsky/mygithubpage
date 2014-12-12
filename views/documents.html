@@ -1,0 +1,12 @@
+<div ng-controller="DocumentCtrl" class="document-wrapper container"> <div class="row"> <div class="col-md-4 wow zoomInLeft"> <h1>Documents</h1> <carousel interval="myInterval"> <slide ng-repeat="slide in documents" active="slide.active"> <img ng-src="{{slide.image}}" style="margin:auto"> <div class="carousel-caption"> <p>{{slide.text}}</p> </div> </slide> </carousel> </div> <div class="col-md-4 wow bounceInUp"> <h1>Works</h1> <carousel interval="myInterval"> <slide ng-repeat="slide in programs" active="slide.active"> <img ng-src="{{slide.image}}" style="margin:auto"> <div class="carousel-caption"> <p>{{slide.text}}</p> </div> </slide> </carousel> </div> <div class="col-md-4 wow zoomInRight"> <h1>Engagements</h1> <carousel interval="myInterval"> <slide ng-repeat="slide in engages" active="slide.active"> <img ng-src="{{slide.image}}" style="margin:auto"> <div class="carousel-caption"> <p>{{slide.text}}</p> </div> </slide> </carousel> </div> <!-- <div class="document wow zoomInLeft">
+		<h3 id="actuary">Society of Actuaries Probability Exam</h3>
+		<img src="images/documents/Pexam.18742748.jpg" style="width: 300px;">
+	</div>
+	<div class="document wow zoomInRight">
+		<h3 id="actuary">R-Short Course</h3>
+		<img src="images/placeholder.edb79cf4.gif">
+	</div>
+	<div class="document wow zoomInLeft">
+		<h3 id="actuary">Institute for Liberal Studies Involvement</h3>
+		<img src="images/placeholder.edb79cf4.gif">
+	</div> --> </div> </div>
