@@ -1,0 +1,139 @@
+[
+	{
+		"title": "Mathematics of Life Contingencies I",
+		"note": "Enrolled in Part-2-",
+		"description": [
+			"Probabilistic introduction to the mathematics of life contingencies.",
+			"Theoretical basis for modeling the future lifetime of certain financial objects with an emphasis on insurance.",
+			"International actuarial notation,",
+			"Life-Tables,",
+			"Life-Statuses,",
+			"Multivariate Survival Distributions,",
+			"Dependence,",
+			"Multiple Decrement Theory."
+		],
+		"type": "mathematics",
+		"course_code": "SC/MATH 3280"
+		},
+	{
+		"title": "The Mathematical Theory of Interest",
+		"note": "",
+		"description": [
+			"Measurement of interest,",
+			"Annuities,",
+			"Amortization of loans, bonds, sinking funds and depreciation."
+		],
+		"type": "mathematics",
+		"course_code": "SC/MATH 2280"
+		},
+	{
+		"title": "Financial Economics",
+		"note": "",
+		"description": [
+			"A quantitative introduction to financial economics.",
+			"Arbitrage pricing theory,",
+			"Forwards and Futures,",
+			"American and European options,",
+			"Interest rate derivatives,",
+			"Yield curves,",
+			"Arbitrage hedging and pricing,",
+			"Put-call parity,",
+			"Arbitrage bounds,",
+			"Binomial model and Trinomial model,",
+			"Black-Scholes formula,",
+			"Risk-neutral valuation."
+		],
+		"type": "mathematics",
+		"course_code": "SC/MATH 2281"
+		},
+	{
+		"title": "Financial Economics",
+		"note": "Enrolled. VEE Course.",
+		"description": [
+			"Analyzes investment and financing decisions,",
+			"The separation between ownership and control,",
+			"Risk inherent in decision-making,",
+			"How shareholders wealth and utility are maximized.",
+			"Net present value,",
+			"Capital budgeting,",
+			"Efficiency of capital markets,",
+			"Treatment of risk,",
+			"Valuation of debt,",
+			"Dividend policy,",
+			"Short-term financing,",
+			"and Financial Strategy."
+		],
+		"type": "economics",
+		"course_code": "AP/ECON 4400"
+		},
+	{
+		"title": "Mathematical Statistics I",
+		"note": "",
+		"description": [
+			"Common density functions,",
+			"Probability functions,",
+			"Principle of likelihood,",
+			"Likelihood function,",
+			"Method of maximum likelihood,",
+			"Likelihood regions,",
+			"Tests of hypotheses,",
+			"Likelihood ratio tests,",
+			"Goodness of fit tests,",
+			"Conditional tests and confidence sets."
+		],
+		"type": "mathematics",
+		"course_code": "SC/MATH 3131"
+		},
+	{
+		"title": "Real Analysis l",
+		"note": "",
+		"description": [
+			"Axioms for, and properties of, the real numbers; sequences;",
+			"Functions of a real variable,",
+			"Continuity, and differentiation.",
+			"Rigorous definitions of convergence,",
+			"Limit underpin a proof-based treatment of the subject material.",
+			"Intended for Honours students in Mathematics."
+		],
+		"type": "mathematics",
+		"course_code": "SC/MATH 2001"
+		},
+	{
+		"title": "Linear Algebra II",
+		"note": "",
+		"description": [
+			"Inner product spaces,",
+			"Linear transformations,",
+			"Eigenvalues, diagonalization,",
+			"Least squares,",
+			"Quadratic forms,",
+			"Markov chains."
+		],
+		"type": "mathematics",
+		"course_code": "SC/MATH 2022"
+		},
+	{
+		"title": "Computational Mathematics",
+		"note": "",
+		"description": [
+			"Modelling (discrete and continuous, deterministic and stochastic)",
+			"Practical solutions to general categories of applied problems.",
+			"Case studies of solutions through modelling and representation of data.",
+			"Implementation, numerical considerations, efficiency,",
+			"Application of numerical algorithms."
+		],
+		"type": "mathematics",
+		"course_code": "SC/MATH 3090"
+		},
+	{
+		"title": "Intermediate Microeconomic Theory II",
+		"note": "",
+		"description": [
+			"Applies the analytical tools from previous courses to analyze resource allocation in imperfectly competitive markets",
+			"Factor pricing in alternative market structures.",
+			"Considers basic concepts of general equilibrium and welfare economics."
+		],
+		"type": "economics",
+		"course_code": "AP/ECON 2350"
+		}
+]
