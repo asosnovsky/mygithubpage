@@ -12,7 +12,8 @@
 	},
 	{
 		"title" : "Contracted-Tutor",
-		"company" : "Tutor Doctor",
+		"pic" : "https://media.licdn.com/media/p/1/000/022/156/3b7c325.png",
+		"link" : "http://tutordoctor.com/",
 		"time" : ["10/2012","06/2013"],
 		"location" : "Vaughn-ON",
 		"description" : [
