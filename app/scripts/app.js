@@ -39,3 +39,7 @@ asosnovsky.config(function ($routeProvider) {
 		controller: 'ModallCtrlMobile'
 	});
 });
+
+asosnovsky.config(['$locationProvider', function($location) {
+  $location.hashPrefix('!');
+}]);

@@ -18,20 +18,23 @@ asosnovsky
 
 	$scope.slide = slide;
 
-}).controller('ImgCtrlMobile', function ($scope, datamanager) {
-	
+}).controller('ImgCtrlMobile', function ($scope, $location, datamanager) {
+
+	console.log($location.url());
 	$scope.ok = function () {
-		window.location.hash = '';
+		$location.hash('');
+		$location.path('').replace();
 	};
 
 	//-----------------------------------------
  	//	Load Data
  	//-----------------------------------------
-	var slidedata = '{'+window.location.hash.split('?')[1].replace('&',',')+'}';
+	var slidedata = '{'+$location.hash().replace('&',',')+'}';
+	console.log(slidedata);
 	slidedata = JSON.parse(slidedata.replace(/[\\"']/g, '\"'));
 
 	//-----------------------------------------
-	//	Data Manager
+	// 	Data Manager
 	//-----------------------------------------
 	datamanager.getJSON(slidedata.type + '.json')
 		.success(function(data){

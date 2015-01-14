@@ -20,12 +20,11 @@ asosnovsky
 	};
 	
 })
-.controller('ModallCtrlMobile', function ($scope, $vpmodal) {
-	
+.controller('ModallCtrlMobile', function ($scope, $location, $vpmodal) {
 	$vpmodal.scope ($scope);
 	
 	$scope.ok = function () {
-		window.location.hash = '';
+		$location.path('');
 	};
 
 });

@@ -19,13 +19,13 @@ asosnovsky
 			$modalInstance.close();
 		};
 
-}).controller('EmailCtrlMobile', function ($scope) {
+}).controller('EmailCtrlMobile', function ($scope, $location) {
 		
 		//-----------------------------------------
 		//	Btns
 		//-----------------------------------------
 		$scope.ok = function () {
-			window.location.hash = '';
+			$location.path('').replace();
 		};
 
 });

@@ -8,7 +8,7 @@
  * Controller of the asosnovsky
  */
  asosnovsky
- .controller('MainCtrl', function ($scope, $modal, datamanager) {
+ .controller('MainCtrl', function ($scope, $modal, $location, datamanager) {
  	//-----------------------------------------
 	//	Scope Carousel Items
 	//-----------------------------------------
@@ -33,7 +33,7 @@
  	//-----------------------------------------
  	$scope.emailModal = function () {
  		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
- 			window.location.hash = 'email';
+ 			$location.path('email').replace();
  		}else{	
 	 		$modal.open({
 	 			templateUrl: 'views/email.html',
@@ -44,7 +44,7 @@
 
  	$scope.aboutModal = function (address) {
  		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
- 			window.location.hash = address;
+ 			$location.path(address).replace();
  		}else{	
 	 		$modal.open({
 	 			templateUrl: 'views/' + address + '.html',
@@ -56,7 +56,8 @@
 
  	$scope.imgModal = function (slide,index) {
  		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
- 			window.location.hash = 'img-modal' + index;
+ 			$location.hash(index);
+ 			$location.path('img-modal').replace();
  			$scope.slide = slide;
  		}else{	
  			$modal.open({
@@ -70,5 +71,4 @@
  			});
  		}
  	};
-
  });

@@ -74,12 +74,20 @@
 		color:#54c7fc
 	}
 	@media (max-width: 690px){
+		
+		.btn-group {
+
+			// margin-left: 5%;
+
+			.btn {
+				font-size: 100%;
+			}
+		}
+
 		h1{
 			font-size:44px
 		}
-		.btn-group {
-			font-size: 50%;
-		}
+
 		.social {
 			font-size:250%;
 

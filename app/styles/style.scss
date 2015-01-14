@@ -3,7 +3,7 @@
  */
 // Colours
 $offWhite: #f8f8f8;
-$blue: #55acee;
+$blue: #409cde;
 $black: #333;
 
 // Pages
@@ -18,11 +18,10 @@ html,body{
 }
 body{
 	background: $offWhite;
-	margin:0;
-	padding:0;
+	// margin:0;
+	// padding:0;
 	font-family:"Oswald", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 	text-align:center;
-	position:relative;
-	overflow:hidden;
+	// position:relative;
 	-webkit-font-smoothing:antialiased
 }
