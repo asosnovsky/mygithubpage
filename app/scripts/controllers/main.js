@@ -9,6 +9,9 @@
  */
  asosnovsky
  .controller('MainCtrl', function ($scope, $modal, $location, datamanager) {
+ 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+ 		// $('body').css({'overflow':'hidden'});
+ 	}
  	//-----------------------------------------
 	//	Scope Carousel Items
 	//-----------------------------------------
