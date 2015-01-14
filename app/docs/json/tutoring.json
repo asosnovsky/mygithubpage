@@ -1,0 +1,25 @@
+[
+	{
+		"title" : "Tutor",
+		"company" : "Myslef",
+		"time" : ["04/2011","Present"],
+		"location" : "Thornhill-ON, North York-ON",
+		"description" : [
+			"Tutored grade 10-12, first and second year university students.",
+			"topics included: Calculus, Statistics, Probability, Data-Management, Physics, Communication Technology",
+			"Independently setting up appointments and finding students."
+		]
+	},
+	{
+		"title" : "Contracted-Tutor",
+		"pic" : "https://media.licdn.com/media/p/1/000/022/156/3b7c325.png",
+		"link" : "http://tutordoctor.com/",
+		"time" : ["10/2012","06/2013"],
+		"location" : "Vaughn-ON",
+		"description" : [
+			"Prepare lesson in grade 10 to 12 mathematics and accounting.",
+			"Contact students, once the company provided me with their contact information.",
+			"Reported hours and wrote invoices."
+		]
+	}
+]

@@ -1,0 +1,21 @@
+[
+		{
+			"image": "docs/img/Pexam.jpg",
+			"text": "Society of Actuaries Probability Exam",
+			"logo": "docs/img/soa.jpg",
+			"link": {
+				"href": "https://www.soa.org/education/exam-req/edu-exam-p-detail.aspx",
+				"btnName": "Link to Institute"
+			},
+			"descprition": "The Society of Actuaries Probability Exam, tests the candidates skills and knowledge in the fundamentals of probability for assessing quantitative risk, A through command of the supporting calculus is assumed. Additional, knowledge of insurance and risk management is assumed."
+		},
+		{
+			"image": "docs/img/r.png",
+			"text": "R-Short Courses",
+			"link": {
+				"href": "http://www.isr.yorku.ca/courses/winter2014/index.html#introR",
+				"btnName": "Link to Institute"
+			},
+			"descprition": "This short course is a step-by-step hands-on introduction to R. Participants learned how to install R on their computers; enter, import, and manipulate data; and carry out basic mathematical, statistical and graphical operations and procedures. Upon completion of this course, participants will be comfortable with, and able to do, statistical work in R. Additionally, they will become familiar with resources to seek follow-up help for learning more about R."
+		}
+	]

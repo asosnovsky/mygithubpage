@@ -1,0 +1,43 @@
+[
+		{
+			"image": "docs/img/Market-Failure.jpg",
+			"text": "ILS Socratic Seminars ",
+			"logo": "https://www.liberalstudies.ca/wp-content/themes/ils/images/logo.png",
+			"link": {
+				"href": "https://www.liberalstudies.ca/socratic-seminars/",
+				"btnName": "Link to Institute"
+			},
+			"descprition": "Institute for Liberal Studies Socratic Seminars provide a chance for small groups of students to spend a weekend in discussion on topics such as economics and philosophy, led by a professor with expertise in the subject."
+		},
+		{
+			"image": "docs/img/actsci.jpg",
+			"text": "ASA, Director of Communication",
+			"logo": "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10696214_1491856511098536_1217672413771580967_n.jpg?oh=7dd9a50efd58dbc421345599c564776e&oe=55423BD4&__gda__=1425649284_6f044bc42dd37bbdbf9e8b70f612ce71",
+			"link": {
+				"href": "https://www.facebook.com/ActuarialStudentAssociationYorkUniversity",
+				"btnName": "Link to Facebook Page"
+			},
+			"descprition": "My role in this club includes: ",
+			"list": [
+			"Maintaining a social media presence.",
+			"Updating any current news.",
+			"Promote and engaged in future event planning.",
+			"Build a relationship with faculty and staff members."
+			]
+		},
+		{
+			"image": "docs/img/sfl.jpg",
+			"text": "SFL, Club Organizer and Founder",
+			"logo": "https://scontent-a-ord.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/1231359_10201844137415978_93088112_n.jpg?oh=469286742a87e4c9ab9c272892e77be1&oe=54FF5C68",
+			"link": {
+				"href": "https://www.facebook.com/groups/164103897065546/",
+				"btnName": "Link to Facebook Group"
+			},
+			"descprition": "My role in this club includes: ",
+			"list": [
+			"Founded a derivative of the Students for Liberty Network.",
+			"Organized events and contacted speakers.",
+			"Maintained relationships with outside organizations and speakers."
+			]
+		}
+	]

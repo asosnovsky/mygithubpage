@@ -1,0 +1,26 @@
+<div class="img-modal">
+	<div class="modal-header">
+		<div style="text-align: right;">
+			<i class="fa fa-times" ng-click="ok()"></i>
+		</div>
+		<h2 class="modal-title">{{slide.text}}</h2>
+	</div>
+	<div class="modal-body">
+		<div class="row">
+			<img ng-src="{{slide.image}}" class="main-img">
+		</div>
+		<div class="row">
+			<img src="{{slide.logo}}" id="logo">
+			<p>{{slide.descprition}}</p>
+			<ul style="text-align: left;">
+				<li ng-repeat="text in slide.list">{{text}}</li>
+			</ul>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<a ng-href="{{slide.link.href}}" target="_blank">
+			<button class="btn btn-primary" ng-style="slide.link.style">{{slide.link.btnName}}</button>
+		</a>
+		<button class="btn btn-primary" ng-click="ok()">Back</button>
+	</div>
+</div>
