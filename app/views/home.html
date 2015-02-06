@@ -1,26 +1,25 @@
-
-<div class="home-wrapper row" class="container">
+<div class="home-wrapper">
 	<div class="row">
-		<h1>Ari Sosnovsky</h1>
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Ari Sosnovsky</h1>
+		</div>
 	</div>
 	<div class="row">
-		<div class="btn-group">
-			<button type="button" class="btn" aria-expanded="false" ng-click="aboutModal( 'actuary' );">
+		<div class="col-md-12"><div class="row">
+			<a class="my-white-btn my-left" ng-click="aboutModal( 'actuary' );">
 				Actuary
-			</button>
-			<button type="button" class="btn" aria-expanded="false" ng-click="aboutModal( 'tutor' );">
+			</a>
+			<a class="my-white-btn" ng-click="aboutModal( 'tutor' );">
 				Tutor
-			</button>
-			<!-- <button type="button" class="btn" aria-expanded="false" ng-click="aboutModal( 'web' );">
-				Web Designer
-			</button> -->
-			<button type="button" class="btn" aria-expanded="false" onclick="window.open('docs/pdf/resume.pdf', '_blank', 'fullscreen=yes');">
+			</a>
+			<a class="my-white-btn" onclick="window.open('docs/pdf/resume.pdf', '_blank', 'fullscreen=yes');">
 				Resume
-			</button>
-			<button type="button" class="btn" aria-expanded="false" ng-click="aboutModal( 'about' );">
+			</a>
+			<a class="my-white-btn my-right" ng-click="aboutModal( 'about' );">
 				About
-			</button>
-		</div>
+			</a>
+		</div></div>
 	</div>
 	<div class="row">
 		<ul class="social">
@@ -46,9 +45,11 @@
 			</li>
 		</ul>
 	</div>
+	</div>
 </div>
-<div class="document-wrapper row" ng-controller="DocumentCtrl">
-	<div class="row">
+
+<div class="document-wrapper" ng-controller="DocumentCtrl">
+	<div class="row"><div class="col-md-12">
 		<div class= "col-md-4 wow zoomInLeft">
 			<h1>Documents</h1>
 			<carousel interval="5000">
@@ -94,6 +95,5 @@
 				</slide>
 			</carousel>
 		</div>
-	</div>
+	</div></div>
 </div>
-

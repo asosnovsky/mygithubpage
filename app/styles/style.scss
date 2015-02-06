@@ -5,11 +5,16 @@
 $offWhite: #f8f8f8;
 $blue: #409cde;
 $black: #333;
+$lightblue: #3ca2da;
+$greenblue: #54C7FC;
 
-// Pages
-@import 'main';
-@import 'modal';
-@import 'document';
+// Imports
+@import "compass";
+@import "pages.main";
+@import "pages.modal";
+@import "pages.document";
+@import "controlls.btns";
+@import "controlls.social";
 
 //Background
 html,body{

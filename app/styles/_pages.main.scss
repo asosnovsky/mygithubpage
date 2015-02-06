@@ -1,0 +1,19 @@
+.home-wrapper {
+	width: 100%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+	h1 {
+		font-size: 10em;
+		font-weight: 400;
+		margin: 0;
+		padding: 1%;
+		color:$lightblue;
+	}
+}
+@media (max-width: 690px){
+
+	h1{
+		font-size:4em !important;
+	}
+}

@@ -1,0 +1,16 @@
+.document-wrapper {
+	position: relative;
+	background: $blue;
+	width: 100%;
+	padding-bottom: 2.5%;
+	padding-top: 1%;
+
+	h1 {
+		color: $offWhite;
+	}
+	
+	.car-img {
+		min-height: 400px;
+		max-height: 400px;
+	}
+}

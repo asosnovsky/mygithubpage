@@ -1,0 +1,46 @@
+.social{
+	list-style-type:none;
+	font-size:500%;
+	text-align:center;
+	margin-top:30px;
+	display:block;
+	position:relative;
+	padding: 0;
+
+	&:before{
+		content:'';
+		width:250px;
+		height:1px;
+		background:$greenblue;
+		opacity:0.7;
+		position:absolute;
+		left:50%;
+		top:0;
+		margin-left:-125px
+	}
+
+	li{
+		display: inline-block;
+		width: 80px;
+		text-align:center
+	}
+	a{
+		color:$lightblue;
+		text-decoration:none;
+		@include transition(all, 0.3s, ease-in-out);
+
+		&:hover{
+			color:$greenblue;
+		}
+	}
+}
+
+@media (max-width: 690px){
+	.social {
+		font-size:250%;
+
+		li{
+			width:33px
+		}
+	}
+}
