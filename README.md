@@ -3,7 +3,7 @@
 ###Homepage
 ================
 
-> All rights are reserved to the Ari Sosnovsky
+> All rights are reserved to Ari Sosnovsky
 
 
 Contributiors:
