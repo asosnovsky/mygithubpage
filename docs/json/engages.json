@@ -26,6 +26,22 @@
 			]
 		},
 		{
+			"image": "docs/img/asa.png",
+			"text": "ASA, President",
+			"link": {
+				"href": "https://www.facebook.com/ActuarialStudentAssociationYorkUniversity",
+				"btnName": "Link to Facebook Page"
+			},
+			"descprition": "My role in this club includes: ",
+			"list": [
+			"Increased the awareness of the Association with students on campus",
+			"Developed a team of high capable directors and members", 
+			"Increased communication between the faculty and the students",
+			"Organized Networking events",
+			"Developed a Case Competition at York"
+			]
+		},
+		{
 			"image": "docs/img/sfl.jpg",
 			"text": "SFL, Club Organizer and Founder",
 			"logo": "https://scontent-a-ord.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/1231359_10201844137415978_93088112_n.jpg?oh=469286742a87e4c9ab9c272892e77be1&oe=54FF5C68",

@@ -18,6 +18,15 @@
 			"descprition": "Out of my personal curiosity for programming and math, as well as a favor to a friend, I construct a stock-analysis tool using the statistical programming language R."
 		},
 		{
+			"image": "docs/img/stockrender.png",
+			"text": "Stockrender Dashboard",
+			"link": {
+				"href": "http://stockrender.com/#/terminal",
+				"btnName": "Link to Work"
+			},
+			"descprition": "As a part of my work at the startup, I also developed the framework for the dashboard framework in the website."
+		},
+		{
 			"image": "docs/img/asayuweb.jpg",
 			"text": "Actuarial Society at York Website",
 			"logo": "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10696214_1491856511098536_1217672413771580967_n.jpg?oh=7dd9a50efd58dbc421345599c564776e&oe=55423BD4&__gda__=1425649284_6f044bc42dd37bbdbf9e8b70f612ce71",
