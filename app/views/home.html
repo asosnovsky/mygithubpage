@@ -49,51 +49,53 @@
 </div>
 
 <div class="document-wrapper" ng-controller="DocumentCtrl">
-	<div class="row"><div class="col-md-12">
-		<div class= "col-md-4 wow zoomInLeft">
-			<h1>Documents</h1>
-			<carousel interval="5000">
-				<slide ng-repeat="slide in documents" active="slide.active">
-					<a ng-click="imgModal( slide , '\'i\':'+$index+'&\'type\':\'documents\'' );">
-						<img ng-src="{{slide.image}}" style="margin:auto;" class="car-img">
-						<div class="carousel-caption">
-							<button type="button" class="btn btn-success">
-								{{slide.text}}
-							</button>
-						</div>
-					</a>
-				</slide>
-			</carousel>
+	<div class="row">
+		<div class="col-md-12">
+			<div class= "col-md-4 wow zoomInLeft">
+				<h1>Documents</h1>
+				<carousel interval="5000">
+					<slide ng-repeat="slide in documents" active="slide.active">
+						<a ng-click="imgModal( slide , '\'i\':'+$index+'&\'type\':\'documents\'' );">
+							<img ng-src="{{slide.image}}" style="margin:auto;" class="car-img">
+							<div class="carousel-caption">
+								<button type="button" class="btn btn-success">
+									{{slide.text}}
+								</button>
+							</div>
+						</a>
+					</slide>
+				</carousel>
+			</div>
+			<div class= "col-md-4 wow bounceInUp">
+				<h1>Works</h1>
+				<carousel interval="2500">
+					<slide ng-repeat="slide in programs" active="slide.active">
+						<a ng-click="imgModal( slide , '\'i\':'+$index+'&\'type\':\'programs\'' );">
+							<img ng-src="{{slide.image}}" style="margin:auto;" class="car-img">
+							<div class="carousel-caption">
+								<button type="button" class="btn btn-success">
+									{{slide.text}}
+								</button>
+							</div>
+						</a>
+					</slide>
+				</carousel>
+			</div>
+			<div class= "col-md-4 wow zoomInRight">
+				<h1>Engagements</h1>
+				<carousel interval="5000">
+					<slide ng-repeat="slide in engages" active="slide.active">
+						<a ng-click="imgModal( slide , '\'i\':'+$index+'&\'type\':\'engages\'' );">
+							<img ng-src="{{slide.image}}" style="margin:auto;" class="car-img">
+							<div class="carousel-caption">
+								<button type="button" class="btn btn-success">
+									{{slide.text}}
+								</button>
+							</div>
+						</a>
+					</slide>
+				</carousel>
+			</div>
 		</div>
-		<div class= "col-md-4 wow bounceInUp">
-			<h1>Works</h1>
-			<carousel interval="2500">
-				<slide ng-repeat="slide in programs" active="slide.active">
-					<a ng-click="imgModal( slide , '\'i\':'+$index+'&\'type\':\'programs\'' );">
-						<img ng-src="{{slide.image}}" style="margin:auto;" class="car-img">
-						<div class="carousel-caption">
-							<button type="button" class="btn btn-success">
-								{{slide.text}}
-							</button>
-						</div>
-					</a>
-				</slide>
-			</carousel>
-		</div>
-		<div class= "col-md-4 wow zoomInRight">
-			<h1>Engagements</h1>
-			<carousel interval="5000">
-				<slide ng-repeat="slide in engages" active="slide.active">
-					<a ng-click="imgModal( slide , '\'i\':'+$index+'&\'type\':\'engages\'' );">
-						<img ng-src="{{slide.image}}" style="margin:auto;" class="car-img">
-						<div class="carousel-caption">
-							<button type="button" class="btn btn-success">
-								{{slide.text}}
-							</button>
-						</div>
-					</a>
-				</slide>
-			</carousel>
-		</div>
-	</div></div>
+	</div>
 </div>

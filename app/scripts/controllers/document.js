@@ -9,14 +9,12 @@
  * # DocumentCtrl
  * Controller of the asosnovsky
  */
-asosnovsky
-	.controller('DocumentCtrl', function ($rootScope) {
-		
- 	if(!/iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
+asosnovsky.controller('DocumentCtrl', function ($rootScope) {
+	if(!/iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
 	 	//-----------------------------------------
 	 	//	Initialize WOW
 	 	//-----------------------------------------
-		new WOW().init();
+	 	new WOW().init();
 
 		/**
 		 * Sync scroll with WOW
@@ -24,7 +22,7 @@ asosnovsky
 		 * @return {null} 
 		 */
 		$rootScope.$on('$routeChangeStart', function () {
-		 	new WOW().sync();
+			new WOW().sync();
 		});
 	}
 });
